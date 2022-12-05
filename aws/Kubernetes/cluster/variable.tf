@@ -1,7 +1,9 @@
 #
 # Variables Configuration
 #
-variable "cluster-name" {}
+variable "cluster-name" {
+  description = "Cluster Name"
+}
 
 variable "vpc_id" {
   description = "VPC ID "
