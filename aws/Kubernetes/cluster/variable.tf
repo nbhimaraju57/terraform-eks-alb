@@ -1,6 +1,11 @@
 #
 # Variables Configuration
 #
+
+variable "cluster-role" {
+  description = "Eks cluster role"
+}
+
 variable "cluster-name" {
   description = "Cluster Name"
 }
